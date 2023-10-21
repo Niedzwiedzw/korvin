@@ -9,6 +9,7 @@ readme = "README.md"
 license = "LICENSE"
 description = "Frontend web framework that focuses on MVC separation"
 edition = "2021"
+repository = "https://github.com/Niedzwiedzw/korvin"
 
 [workspace.dependencies]
 korvin-core.path = "korvin-core"

@@ -5,6 +5,7 @@ version.workspace = true
 edition.workspace = true
 readme.workspace = true
 license.workspace = true
+repository.workspace = true
 description = "The core for korvin frontend framework"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
