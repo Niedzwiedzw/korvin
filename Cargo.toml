@@ -1,15 +1,18 @@
 [workspace]
 resolver = "2"
-members = ["korvin-core", "test-app"]
+members = ["korvin-core", "korvin", "test-app"]
 
 [workspace.package]
 version = "0.2.1"
 categories = ["wasm"]
 readme = "README.md"
+license = "LICENSE"
+description = "Frontend web framework that focuses on MVC separation"
 edition = "2021"
 
 [workspace.dependencies]
 korvin-core.path = "korvin-core"
+korvin.path = "korvin"
 
 [workspace.dependencies.web-sys]
 version = "0.3"
